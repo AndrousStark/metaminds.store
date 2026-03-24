@@ -1,6 +1,16 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/outbrew",
+      "destination": "https://metaminds-store-outbrew-frontend.vercel.app/outbrew"
+    },
+    {
+      "source": "/outbrew/:path*",
+      "destination": "https://metaminds-store-outbrew-frontend.vercel.app/outbrew/:path*"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
