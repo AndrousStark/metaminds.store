@@ -9,6 +9,14 @@
     {
       "source": "/outbrew/:path*",
       "destination": "https://metaminds-store-outbrew-frontend.vercel.app/outbrew/:path*"
+    },
+    {
+      "source": "/courtnetra",
+      "destination": "https://courtnetra-frontend.vercel.app/courtnetra"
+    },
+    {
+      "source": "/courtnetra/:path*",
+      "destination": "https://courtnetra-frontend.vercel.app/courtnetra/:path*"
     }
   ],
   "headers": [
