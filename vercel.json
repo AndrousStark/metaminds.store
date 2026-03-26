@@ -12,11 +12,11 @@
     },
     {
       "source": "/courtnetra",
-      "destination": "https://courtnetra-frontend.vercel.app/courtnetra"
+      "destination": "https://court-netra-frontend.vercel.app/courtnetra"
     },
     {
       "source": "/courtnetra/:path*",
-      "destination": "https://courtnetra-frontend.vercel.app/courtnetra/:path*"
+      "destination": "https://court-netra-frontend.vercel.app/courtnetra/:path*"
     }
   ],
   "headers": [
