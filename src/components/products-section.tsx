@@ -19,6 +19,22 @@ const products = [
     tag: "Live",
     tagColor: "bg-[#EA6020]/10 text-[#EA6020]",
   },
+  {
+    name: "CourtNetra",
+    tagline: "AI-powered legal case management that auto-fetches hearing dates, orders, and cause lists from 19,630+ Indian courts — so no deadline slips through.",
+    image: "/courtnetra-preview.png",
+    href: "/courtnetra",
+    tag: "Live",
+    tagColor: "bg-[#10B981]/10 text-[#10B981]",
+  },
+  {
+    name: "Badhiya AI",
+    tagline: "Something exciting is brewing. Stay tuned.",
+    image: "/badhiya-preview.png",
+    href: "#",
+    tag: "Coming Soon",
+    tagColor: "bg-[#F59E0B]/10 text-[#F59E0B]",
+  },
 ];
 
 function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
@@ -68,7 +84,7 @@ export function ProductsSection() {
             Tools That Work For You
           </h2>
           <p className="text-sm sm:text-base text-[#4F4F4F] leading-relaxed">
-            Two powerful products built to transform how you manage tasks and reach customers.
+            Powerful products built to transform how you work, reach customers, and manage what matters.
           </p>
         </div>
       </Reveal>
